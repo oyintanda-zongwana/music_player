@@ -30,7 +30,7 @@ def start_stop():
 l1 = Label(window, text = "MUSIC PLAYER", font = "times 20")
 l1.grid(row = 1, column = 1)
 
-b2 = Button(window, text = "0", width = 20, command = start_stop)
+b2 = Button(window, text = "Play song", width = 20, command = start_stop)
 b2.grid(row = 4, column = 1)
 
 songs_list = os.listdir()
